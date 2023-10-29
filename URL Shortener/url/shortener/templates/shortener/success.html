@@ -1,0 +1,12 @@
+<!-- shortener/templates/shortener/success.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Shortened</title>
+</head>
+<body>
+    <h1>URL Shortened Successfully!</h1>
+    <p>Original URL: {{ shortened_url.original_url }}</p>
+    <p>Shortened URL: <a href="{{ shortened_url.short_url }}">{{ shortened_url.short_url }}</a></p>
+</body>
+</html>
